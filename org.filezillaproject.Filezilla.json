@@ -108,6 +108,27 @@
       ]
     },
     {
+      "name": "argon2",
+      "no-autogen": true,
+      "make-install-args": [
+        "PREFIX=/app",
+        "LIBRARY_REL=lib"
+      ],
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://github.com/P-H-C/phc-winner-argon2/archive/refs/tags/20190702.tar.gz",
+          "sha256": "daf97295d3d0e08a63eb7a3e3f536c025a58a3c0b8d1e6a43f3f9f53685c0b9c",
+          "x-checker-data": {
+            "type": "anitya",
+            "project-id": 1617,
+            "stable-only": true,
+            "url-template": "https://github.com/P-H-C/phc-winner-argon2/archive/refs/tags/$version.tar.gz"
+          }
+        }
+      ]
+    },
+    {
       "name": "fzssh",
       "buildsystem": "meson",
       "sources": [
