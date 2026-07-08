@@ -118,7 +118,7 @@
         {
           "type": "archive",
           "url": "https://github.com/P-H-C/phc-winner-argon2/archive/refs/tags/20190702.tar.gz",
-          "sha256": "daf97295d3d0e08a63eb7a3e3f536c025a58a3c0b8d1e6a43f3f9f53685c0b9c",
+          "sha256": "daf972a89577f8772602bf2eb38b6a3dd3d922bf5724d45e7f9589b5e830442c",
           "x-checker-data": {
             "type": "anitya",
             "project-id": 1617,
