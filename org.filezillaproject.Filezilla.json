@@ -92,6 +92,7 @@
     },
     {
       "name": "fzssh",
+      "buildsystem": "meson",
       "sources": [
         {
           "x-checker-data": {
