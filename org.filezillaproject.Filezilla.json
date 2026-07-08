@@ -97,13 +97,13 @@
           "x-checker-data": {
             "type": "html",
             "//": "filezilla-project.org blocks fedc user agent",
-            "url": "https://packages.debian.org/source/sid/libfilezilla",
-            "pattern": "<a href=\"(https://ftp.debian.org/debian/pool/main/libf/libfilezilla/libfilezilla_([^\"]+).orig.tar.xz)\">",
+            "url": "https://sources.archlinux.org/other/packages/libfilezilla/",
+            "pattern": "libfilezilla-([0-9.]+)\\.tar\\.xz",
             "is-important": true
           },
           "type": "archive",
-          "url": "https://ftp.debian.org/debian/pool/main/libf/libfilezilla/libfilezilla_0.54.1.orig.tar.xz",
-          "sha512": "9f123cc74ad158fd2510fdd067fe6983feb01f787acc983d86d5d81065a9b042614a9c4cd7aecd9f77178482e0327f17623d2019d9269bceb33be887b0dc7d7f"
+          "url": "https://sources.archlinux.org/other/packages/libfilezilla/libfilezilla-0.56.1.tar.xz",
+          "sha512": "b488968ea8d0f8b4b83f45755303bf94a0118cded5fe911a187c532962e2445c2e2851311229cddcec3141d9e0d0a84076927812cd9a78b83ca0693dcc23fbfd"
         }
       ]
     },
@@ -127,8 +127,8 @@
           "x-checker-data": {
             "type": "html",
             "//": "filezilla-project.org blocks fedc user agent",
-            "url": "https://packages.debian.org/source/sid/filezilla",
-            "pattern": "<a href=\"(https://ftp.debian.org/debian/pool/main/f/filezilla/filezilla_([^\"]+).orig.tar.xz)\">",
+            "url": "https://sources.archlinux.org/other/filezilla/",
+            "pattern": "filezilla-([0-9.]+)\\.tar\\.xz",
             "is-main-source": true
           },
           "type": "archive",
